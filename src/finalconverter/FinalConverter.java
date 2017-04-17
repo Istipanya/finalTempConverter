@@ -26,8 +26,8 @@ public class FinalConverter {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Choose Base Temperature: ");
-        System.out.println("A: Celcius");
-        System.out.println("B: Fahrenhiet");
+        System.out.println("A Celcius");
+        System.out.println("B Fahrenhiet");
 
         baseTemp = input.next();
         
