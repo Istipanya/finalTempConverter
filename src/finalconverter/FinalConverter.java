@@ -34,6 +34,17 @@ public class FinalConverter {
         Scanner input2 = new Scanner(System.in);
         System.out.println("Enter Temperature: ");
         temp = input2.nextInt();
+        
+        switch (baseTemp) {
+            case "A":
+                answer = (((temp * 9) / 5) + 32);
+                System.out.println(temp + " Celcius = " + answer + " Fahrenheit");
+                break;
+            case "a":
+                answer = (((temp * 9) / 5) + 32);
+                System.out.println(temp + " Celcius = " + answer + " Fahrenheit");
+                break;
     }
     
+}
 }
