@@ -30,6 +30,10 @@ public class FinalConverter {
         System.out.println("B: Fahrenhiet");
 
         baseTemp = input.next();
+        
+        Scanner input2 = new Scanner(System.in);
+        System.out.println("Enter Temperature: ");
+        temp = input2.nextInt();
     }
     
 }
